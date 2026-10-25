@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2baaa643f3777f640898b98f3d28ce12, type: 3}
+  m_Name: MidKit_01
+  m_EditorClassIdentifier: 
+  itemName: MidKit_01
+  icon: {fileID: 21300000, guid: a31832a7fc80c6f45b36a2970e89458c, type: 3}
+  itemType: 0
+  maxStack: 64
+  itemPrefab: {fileID: 7195225215689465045, guid: b6f51eba3cb93884b87ee1a7ecdc26d7, type: 3}
+  weaponInHand: {fileID: 0}
