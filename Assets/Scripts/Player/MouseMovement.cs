@@ -12,8 +12,11 @@ public class MouseMovement : MonoBehaviour
 
     void Start()
     {
+        // Dùng độ nhạy đã chọn trong menu, nếu có.
+        mouseSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", mouseSensitivity);
         //Locking the cursor to the middle of the screen and making it invisible
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
